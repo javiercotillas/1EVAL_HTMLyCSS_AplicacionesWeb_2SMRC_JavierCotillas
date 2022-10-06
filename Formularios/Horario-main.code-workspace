@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../Horario-main"
+		},
+		{
+			"path": "../tablas"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../listas"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Formularios"
+	}
+}
