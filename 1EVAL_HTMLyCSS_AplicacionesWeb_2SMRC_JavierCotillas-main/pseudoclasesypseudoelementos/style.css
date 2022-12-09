@@ -1,9 +1,0 @@
-
-/* main :first-child {color: red;}*/
-a:link{color:yellow; background-color: black;}
-a:visited{color:white; background-color:blue;}
-a:hover{color:blueviolet; background-color: chartreuse;}
-a.active{font-size: xx-large;}
-input:focus{background-color: yellow;
-border: red 3px double;}
-p::first-line{text-transform: capitalize;}
