@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/archivos.css">
+    
+</head>
+<body>
+   <form action="ejemplo.php" method="get">
+    <fieldset>
+        <Legend> <h1>Datos personales </h1></Legend>
+    <label> Nombre: <input type="text" name="nombre" size="40" required></label>
+    <label>Apellido: <input type="text" name="Apellido" size="40" required></label>
+    <label> DNI: <input type="text" name="dni" size="40" required></label>
+    <label> Correo electrónico: <input type="text" name="correo"></label>
+    <label> Fecha de nacimiento <input type="date" required></label>
+</fieldset>
+    <fieldset>
+        <legend>Más datos personales</legend>
+   <label> Sexo: <input type="radio" name="hm"  value="h"> Hombre </label>
+    <label> <input type="radio" name="hm"   value="m"> Mujer </label>
+    <label> Foto: <input type="file" name="foto"></label>
+    <label>Número de hijos<select name="nhijos" id="nhijos">
+        <option value="..">..</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>    
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    
+    </select> 
+    </label>
+
+</fieldset>
+<fieldset>
+    <p>Deporte favorito</p>
+<input type="radio" name="deportes">Fútbol
+<input type="radio" name="deportes">Baloncesto
+<input type="radio" name="deportes">Natación
+</fieldset>
+    <p><button type="submit" value="Enviar"><img src="enviar.png" alt="" width="30" height="30">Enviar </button>  
+        <button type="reset" value="Borrar"><img src="borrar.jpeg" alt="" width="30" height="30">Borrar</button></p>
+   </form> 
+</body>
